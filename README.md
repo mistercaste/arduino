@@ -1,6 +1,6 @@
 # Arduino Samples
 
-The guide below refers to an `AZ-Delivery Digispark Rev.3 USB Stick`.
+The guide below refers to an `AZ-Delivery Digispark Rev.3 USB Stick` on Linux (Debian/Ubuntu).
 
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software)
 2. Go to File &rarr; Preferences &rarr; Additional Boards Manager URLs &rarr; `http://digistump.com/package_digistump_index.json`
