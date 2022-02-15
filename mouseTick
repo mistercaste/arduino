@@ -1,0 +1,20 @@
+#include "DigiMouse.h"
+
+#define DELAY 30000// milliseconds
+#define MOVE 1// pixels to the right
+
+unsigned long mouse_timeout;
+
+void setup() {
+  DigiMouse.begin();
+  mouse_timeout = millis() + DELAY;
+}
+
+void loop() {
+  DigiMouse.update();
+  if (millis() > mouse_timeout) {
+    DigiMouse.moveX(MOVE);
+    mouse_timeout = millis() + DELAY;
+  }
+
+}
