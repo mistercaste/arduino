@@ -32,3 +32,5 @@ The guide below refers to an `AZ-Delivery Digispark Rev.3 USB Stick` on Linux (D
 10. Upload
 11. Connect the USB stick
 12. Done!
+
+NOTE - The latest versions of Debian based kernels might neet to run `apt install libusb-0.1-4`
