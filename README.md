@@ -3,8 +3,8 @@
 The guide below refers to an `AZ-Delivery Digispark Rev.3 USB Stick` on Linux (Debian/Ubuntu).
 
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software)
-2. Go to folder ./.arduino15/packages/digistump/hardware/avr/1.6.7/libraries/DigisparkUSB, backup usbconfig.h to usbconfig.h.bak
-3. In folder ./.arduino15/packages/digistump/hardware/avr/1.6.7/libraries/DigisparkUSB copy the provided usbconfig.h (this will mimic a Lenovo Laser Wireless Mouse)
+2. Go to folder `./.arduino15/packages/digistump/hardware/avr/1.6.7/libraries/DigisparkUSB`, backup usbconfig.h to usbconfig.h.bak
+3. In folder `./.arduino15/packages/digistump/hardware/avr/1.6.7/libraries/DigisparkUSB` copy the provided `usbconfig.h` (this will mimic a Lenovo Laser Wireless Mouse)
 4. Go to File &rarr; Preferences &rarr; Additional Boards Manager URLs &rarr; `http://digistump.com/package_digistump_index.json`
 5. Tools &rarr; Board &rarr; Boards Manager &rarr; `Digistump AVR Boards`
 6. `sudo adduser $USER dialout`
